@@ -3,7 +3,7 @@
    -"virtualenv venv -p python3"
 
 2 - Instale as dependências
-  - Vá para a pasta "url_shortener"
+  - Vá para a pasta "url_shortener/requirements.txt"
   - Digite "pip install -r "requirements.txt"
 
 3 -Para rodar o sistema vá para a pasta "url_shortener"
