@@ -35,6 +35,8 @@ def redirectUrl(request,slug):
 		print (request.POST['senha'])
 		if request.POST['senha'] == url.url_password:
 			return redirect(url.original_url)
+		else:
+			return render(request,'home.html')
 
 	else:
 		if url.is_protected == True:
